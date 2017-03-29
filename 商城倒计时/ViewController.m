@@ -31,7 +31,7 @@
     _timerLabel.font = [UIFont systemFontOfSize:14];
     
     
-    __block   NSInteger timeout = 10; //倒计时时间
+    __block   NSInteger timeout = 10000; //倒计时时间
     
     if (timeout!=0) {
         dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
